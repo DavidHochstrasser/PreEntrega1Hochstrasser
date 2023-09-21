@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "Toyota Corolla",
+      "year": 2022,
+      "price": 27000,
+      "description": "El Toyota Corolla es un sedán confiable y eficiente con una larga historia de calidad.",
+      "image": "https://media.toyota.com.ar/6f63054e-6600-41dd-aa77-b85199661ca4.png"
+    },
+    {
+      "id": 2,
+      "name": "Volkswagen Gol",
+      "year": 2023,
+      "price": 22000,
+      "description": "El Volkswagen Gol es un hatchback compacto y económico.",
+      "image": "https://fotos.perfil.com/2022/07/28/volkswagen-gol-1393400.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Ford Ranger",
+      "year": 2022,
+      "price": 40000,
+      "description": "La Ford Ranger es una camioneta robusta y versátil para trabajo y aventuras.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_940861-MLA71671556360_092023-O.webp"
+    },
+    {
+      "id": 4,
+      "name": "Chevrolet Onix",
+      "year": 2023,
+      "price": 24000,
+      "description": "El Chevrolet Onix es un auto compacto con estilo y tecnología moderna.",
+      "image": "https://www.megautos.com/wp-content/uploads/2019/09/chevrolet-onix-plus-premier-2020-delantera.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Renault Kwid",
+      "year": 2022,
+      "price": 19000,
+      "description": "El Renault Kwid es un pequeño vehículo urbano con un precio asequible.",
+      "image": "https://rentalo.store/wp-content/uploads/2021/12/kwid.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Fiat Cronos",
+      "year": 2023,
+      "price": 25000,
+      "description": "El Fiat Cronos es un sedán compacto con diseño italiano y eficiencia.",
+      "image": "https://autotest.com.ar/wp-content/uploads/2022/07/Fiat-Cronos-2023-lanzamiento-frente.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Peugeot 208",
+      "year": 2022,
+      "price": 26000,
+      "description": "El Peugeot 208 es un hatchback elegante con un interior de alta calidad.",
+      "image": "https://i0.wp.com/geeksroom.com/wp-content/uploads/2018/07/peugeot-208.jpg?resize=680%2C380&ssl=1"
+    },
+    {
+      "id": 8,
+      "name": "Hyundai Creta",
+      "year": 2023,
+      "price": 28000,
+      "description": "La Hyundai Creta es una SUV compacta con espacio y comodidad.",
+      "image": "https://img2.freepng.es/20180607/cfw/kisspng-hyundai-creta-car-sport-utility-vehicle-hyundai-sa-hyundai-creta-5b19f646944091.3431739515284281026073.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Nissan Versa",
+      "year": 2022,
+      "price": 23000,
+      "description": "El Nissan Versa es un sedán espacioso y versátil con tecnología avanzada.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh_WhUW5vkuI2EhHdrwkDRjYb8DCJZvEmuMg&usqp=CAU"
+    },
+    {
+      "id": 10,
+      "name": "Volkswagen Amarok",
+      "year": 2023,
+      "price": 45000,
+      "description": "La Volkswagen Amarok es una camioneta potente y robusta para aventuras todoterreno.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYw3U0HhYtxO0-uovtO8YwRzy0ntt7a5DSEA&usqp=CAU"
+    }
+  ]
+  

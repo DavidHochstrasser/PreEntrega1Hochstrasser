@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { pedirDatos } from "../Components/pedirDatos";
+import ItemList from "../Components/ItemList";
 
-const ItemListConteiner = (props) => {
+const ItemListConteiner = () => {
+  const [productos, setProductos] = useState([]);
+  console.log(productos);
+
+  useEffect(() => {
+    pedirDatos().then((res) => {
+      setProductos(res);
+    });
+  }, []);
+
   return (
     <div>
-      <h2>{props.greeting}</h2>
+      <ItemList productos={productos} />
     </div>
   );
 };

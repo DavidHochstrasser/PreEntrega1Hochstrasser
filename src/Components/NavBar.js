@@ -1,16 +1,17 @@
 import React from "react";
 import CartWidget from "./CartWidget";
 import Logo from "./Logo";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <div>
       <nav class="navbar d-flex justify-content-end navbar-expand-lg bg-info text-dark">
         <div class="container-fluid d-flex pl-5 justify-content-end">
-          <a class="navbar-brand d-flex pl-5 " href="#">
+          <Link class="navbar-brand d-flex pl-5 " to="/">
             <Logo />
-            <h3 class="d-flex pl-5">Tienda</h3>
-          </a>
+            <h4 class="d-flex pl-5"> TiendaNube</h4>
+          </Link>
           <button
             class="navbar-toggler"
             type="button"
@@ -26,17 +27,14 @@ const NavBar = () => {
             class="collapse navbar-collapse d-flex justify-content-end"
             id="navbarNavAltMarkup"
           >
-            <div class="navbar-nav d-flex justify-content-end ">
-              <a class="nav-link active" aria-current="page" href="#">
-                Inicio
-              </a>
-              <a class="nav-link" href="#">
+            <div class="navbar-nav d-flex justify-content-end">
+              <Link class="nav-link" to="/">
                 Catálogo
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <Link class="nav-link" to="/contacto">
                 Contacto
-              </a>
-              <a class="nav-link d-flex justify-content-end" href="#">
+              </Link>
+              <a class="nav-link d-flex justify-content-end" to="/carrito">
                 <CartWidget />
               </a>
             </div>
