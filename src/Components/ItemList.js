@@ -2,10 +2,10 @@ import React from "react";
 import Item from "../Components/Item";
 
 const ItemList = ({ productos }) => {
-  console.log(productos);
+  console.log();
   return (
     <div className="conteiner">
-      <h2>Autos Disponibles</h2>
+      <h2 className="titulares">Autos Disponibles en nuestro Catálogo</h2>
       <div
         className="productos"
         style={{
